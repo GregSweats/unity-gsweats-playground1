@@ -1,0 +1,19 @@
+*.dylib filter=lfs diff=lfs merge=lfs -text
+Library/* filter=lfs diff=lfs merge=lfs -text
+Library/Artifacts/ filter=lfs diff=lfs merge=lfs -text
+Packages/* filter=lfs diff=lfs merge=lfs -text
+*.dll filter=lfs diff=lfs merge=lfs -text
+# *./dylib - macOS? (100 MB of them in this code base alone, across a mere 4 files.)
+*.dylib filter=lfs diff=lfs merge=lfs -text
+
+
+# new file:   Library/Artifacts/b5/b5523ade807cd77b62ffd6a428b2cc55
+# new file:   Library/Artifacts/b5/b552c7d7d2bedad1c14f074b9ca3a3b3
+# new file:   Library/Artifacts/b5/b556e8a75bc525340672b7122cdb2bc3
+# new file:   Library/Artifacts/b5/b55a7b45f2c2e2fd904e326274302d5d
+# new file:   Library/Artifacts/b5/b55b0d3b4805efe67a6f943db0ae3bbf
+# new file:   Library/Artifacts/b5/b56787feee145decaaf31ca40d05baa0
+# new file:   Library/Artifacts/b5/b56bfc83c8ca299070d651cc04cb4ead
+# new file:   Library/Artifacts/b5/b57cf7818a0abb0911d9b3940b2fecbd
+# new file:   Library/Artifacts/b5/b57f91962fea9e4e610db8f9a6994291
+
